@@ -1,0 +1,515 @@
+body {
+	margin: 0 auto;
+	font-family: verdana;
+	color: #888888;
+	width: 1190px;
+}
+
+h1 {
+	font-size: 35px;
+	color: #00747f;
+}
+
+h2 {
+	font-size: 30px;
+	color: #40bac5;
+}
+
+h3 {
+	font-size: 17px;
+	color: #00747f;
+}
+
+h4 {
+	font-size: 17px;
+	color: #233a59;
+}
+
+p {
+	font-size: 14px;
+}
+
+.azul {
+	color: #00747f;
+}
+
+.negreta {
+	font-weight: bold;
+}
+
+.small {
+	font-size: 11px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 1190px;
+}
+
+/*cabecera*/
+
+img.logo {
+	width: 400px;
+	padding: 5px 0 0 0;
+}
+
+#logotipo {
+	float: left;
+	height: 120px;
+	width: 590px;
+}
+
+#reg {
+	float: right;
+	width: 590px;
+	height: 20px;
+}
+
+#menu_arriba {
+	float: right;
+	width: 590px;
+	height: 45px;
+	margin-top: 55px;
+}
+
+#titulo {
+	clear: left;
+	float: left;
+}
+
+.linea {
+	clear: both;
+	border: solid #888888 1px;
+	width: 1190px;
+}
+
+/*menus*/
+
+#nav2 {
+	clear: left;
+	float: left;
+	width: 690px;
+	height: 40px;
+}
+
+#idi {
+	float: right;
+	width: 490px;
+	height: 35px;
+	padding: 0 0 5px 0;
+	margin-bottom: 5px;
+}
+
+ul.menu1 {
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu2 {
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu3 {
+	margin: 0;
+	padding: 0;
+}
+
+li.m1 {
+	display: inline;
+}
+
+li.m2 {
+	display: inline;
+}
+
+li.m3 {
+	display: inline;
+}
+
+.m1 a {
+	float: right;
+	padding: 10px;
+	margin-left: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+	background: #f2f2f2;
+	width: 90px;
+}
+
+.m2 a {
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+	font-size: 17px;
+	font-weight: bold;
+	color: gray;
+	background: #f2f2f2;
+}
+
+.m3 a {
+	float: right;
+	padding: 5px;
+	margin-left: 3px;
+	font-size: 15px;
+	font-weight: bold;
+	color: gray;
+	background: #f2f2f2;
+}
+
+.m1 a:hover {
+	color: black;
+	background: gray;
+}
+
+.m1 a:active {
+	color: black;
+	background: gray;
+}
+
+.m2 a:hover {
+	color: black;
+	background: gray;
+}
+
+.m2 a:active {
+	color: black;
+	background: gray;
+}
+
+.m3 a:hover {
+	color: black;
+	background: gray;
+}
+
+.m3 a:active {
+	color: black;
+	background: gray;
+}
+
+.menu1 {
+	width: 590px;
+}
+
+.m1,
+.m2,
+.m3 {
+	border-radius: 10px;
+}
+
+.idioma {
+	float: left;
+	text-align: right;
+	padding: 0 0 0 350px;
+}
+
+.registro a {
+	float: right;
+	font-weight: bold;
+	text-align: right;
+	color: gray;
+	margin: 0 0 0 25px;
+}
+
+.registro a:hover {
+	font-weight: bold;
+	text-align: right;
+	color: black;
+}
+
+#left_container {
+	float: left;
+	width: 890px;
+}
+
+#left_container a {
+	color: #00747f;
+}
+
+.programa {
+	float: left;
+	width: 890px;
+}
+
+.float_imagen {
+	float: right;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.que {
+	float: left;
+	width: 490px;
+}
+
+.horario {
+	float: left;
+	width: 390px;
+}
+
+.espacio {
+	clear: left;
+	float: left;
+	width: 890px;
+}
+
+.pie_left {
+	clear: left;
+	padding: 10px 0 0 0;
+}
+
+/*cajas*/
+
+#cajas {
+	/*contenedor */
+	clear: left;
+	float: left;
+	width: 890px;
+}
+
+.caja1,
+.caja2,
+.caja3,
+.caja4,
+.caja5,
+.caja6,
+.caja7,
+.caja8,
+.caja9,
+.caja10 {
+	float: left;
+	width: 255px;
+	height: 230px;
+	padding: 1px 15px 2px 20px;
+	line-height: 1.5em;
+	transform: rotate(2deg);
+	box-shadow: 5px 5px 3px grey;
+}
+
+.caja1,
+.caja5,
+.caja9 {
+	background: #ffd9d4;
+}
+
+.caja2,
+.caja6,
+.caja10 {
+	background: #ddefaa;
+}
+
+.caja3,
+.caja7 {
+	background: #fefbc2;
+}
+
+.caja4,
+.caja8 {
+	background: #99dbe7;
+}
+
+.caja2,
+.caja3,
+.caja5,
+.caja6,
+.caja8,
+.caja9 {
+	margin-left: 10px;
+}
+
+.caja4,
+.caja5,
+.caja6,
+.caja7,
+.caja8,
+.caja9,
+.caja10 {
+	margin-top: 10px;
+}
+
+#right_container {
+	float: right;
+	width: 290px;
+}
+
+.cuadro_azul {
+	background: #99cdff;
+	Text-align: center;
+	height: 90px;
+	border-radius: 10px;
+}
+
+a.boton_horario {
+	float: left;
+	background: #8bcf68;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 80px;
+	margin: 10px 30px;
+	border-radius: 10px;
+}
+
+.boton_horario:hover {
+	background: #abf6a3;
+}
+
+.cuadro_gris {
+	background: #f0f1f1;
+	font-size: 14px;
+	height: 480px;
+	border-radius: 10px;
+}
+
+.lista_de_imagenes {
+	padding: 20px 0 20px 10px;
+}
+
+.lista_de_imagenes img {
+	float: left;
+	width: 50px;
+	margin: 0 10px 7px 0;
+}
+
+.lista_de_imagenes li {
+	float: right;
+	margin: 0 10px 20px 0;
+}
+
+.cuadro_amarillo {
+	background: #fefbc2;
+	padding: 10px 20px;
+	margin: 15px 0 10px 0;
+}
+
+.icono_lista {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.titulo_rojo {
+	font-size: x-large;
+	font-weight: bold;
+	color: #950000;
+}
+
+li.lista {
+	font-size: 14px;
+	color: black;
+	list-style-type: none;
+	display: block;
+}
+
+/*botones Identi.ca y Twitter*/
+
+#identica {
+	background: #7db4c9;
+}
+
+#twitter {
+	background: #00bcff;
+}
+
+#identica,
+#twitter {
+	width: 240px;
+	height: 50px;
+	margin: 5px 24px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.identica_icon,
+.twitter_icon {
+	float: left;
+	margin: 5px 0 5px 20px;
+}
+
+p.identica_text,
+p.twitter_text {
+	padding: 15px 0 0 0;
+}
+
+.identica_text a,
+.twitter_text a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	margin-left: -40px;
+}
+
+#identica:hover {
+	background: #a2dff6;
+}
+
+#twitter:hover {
+	background: #83d7f5;
+}
+
+/*pie*/
+
+#pie {
+	clear: both;
+	height: 100px;
+	margin: 0 auto;
+	background: #7a7771;
+}
+
+#menu_pie {
+	float: left;
+}
+
+a.marge {
+	margin: 0 0 0 15px;
+}
+
+.menu_pie1,
+.menu_pie2,
+.menu_pie3,
+.menu_pie4 {
+	float: left;
+	margin: 10px 20px;
+}
+
+.menu_pie1 a,
+.menu_pie2 a,
+.menu_pie3 a,
+.menu_pie4 a {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+#licencia {
+	float: right;
+	width: 350px;
+	text-align: right;
+}
+
+#licencia p {
+	font-size: 10px;
+	color: black;
+	padding: 5px 15px 60px 0;
+}
+
+#licencia a {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+.icono {
+	width: 15px;
+}
