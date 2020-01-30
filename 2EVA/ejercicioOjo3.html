@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Parte 1.3</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="generator" content="CSE HTML Validator (http://www.htmlvalidator.com/)">
+        <link href="software_empleado/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="cssOjo2.css" type="text/css" rel="stylesheet">
+        <script src="jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".inicio").click(function(){
+                    $(".rojo").animate({left: '+45%', top: '+45%'}, 2000);
+                    $(".rojo_abajo").animate({bottom: '+45%', right: '+45%'}, 2000);
+                    $(".inicio").hide();
+                    $(".fin").show();
+                });
+            });
+            $(document).ready(function() {
+                $(".fin").click(function(){
+                    $(".rojo").animate({left: '0', top: '0'}, 2000);
+                    $(".rojo_abajo").animate({bottom: '0', right: '0'}, 2000);
+                    $(".fin").hide();
+                    $(".inicio").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="rojo">
+            <h1><span class="fa fa-eye"></span></h1>
+        </div>
+        <div class="azul" style="z-index: 100">
+            <span class="inicio"> INICIAL</span><span class="fin" style="display: none"> FINAL</span>
+        </div>
+        <div class="rojo_abajo">
+            <h1><span class="fa fa-comment"></span></h1>
+        </div>
+    </body>
+</html>
