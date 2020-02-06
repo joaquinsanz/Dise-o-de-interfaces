@@ -15,7 +15,7 @@ body{
     background-color: black;
 }
 .rojo{
-    top,left: 0;
+    top: 0;
     background-color: red;
     color: white;
     position: absolute;
